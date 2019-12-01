@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backfround"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/statementSearchAcId"
+            android:layout_width="270dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:background="#4666E0"
+            android:ems="10"
+            android:hint="  Enter Account No"
+            android:inputType="textPersonName"
+            android:textColor="#F7F4F4"
+            android:textColorHint="#FDFCFC"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/statementSearchId"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:background="@drawable/roundablebutton"
+            android:text="Search"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/statementNameId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/statementAcNoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/statementListViewId"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        >
+    </ListView>
+
+</LinearLayout>

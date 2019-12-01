@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transaction"
+    android:orientation="vertical"
+    android:background="@drawable/depositbackground"
+    >
+    <SearchView
+        android:queryHint="Enter User Name"
+        android:id="@+id/simpleSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3ECEC">
+    </SearchView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/transactionListId"
+        android:divider="#07F164"
+        android:dividerHeight="4dp"
+        android:listSelector="#F7F5F5"
+        >
+    </ListView>
+
+
+</LinearLayout>

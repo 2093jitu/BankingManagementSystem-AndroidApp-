@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/backfround">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:gravity="fill|center_vertical"
+        android:background="@drawable/depositpage"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#636302"
+            android:text="ACCOUNT DETAILS"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="501dp"
+        android:layout_margin="10dp"
+        android:background="#F3F3D8"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/imageViewId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/customerNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="MM jitu"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/customerAcNoId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="123456"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/customerDobId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="03-10-19933"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/customerAcTypeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="Running"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/customerGenderId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="Male"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/customerMobileNoId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="01765515354"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

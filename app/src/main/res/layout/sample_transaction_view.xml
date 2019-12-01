@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:weightSum="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#F3EFEF"
+        >
+
+        <TextView
+            android:id="@+id/imageViewId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameId"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="Bangladesh"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mricId"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="Click here to see the description..."
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/accountNoId"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="click here to see the description..."
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/currentBalanceId"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="Click here to see the description..."
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

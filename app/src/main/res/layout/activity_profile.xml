@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backfround"
+    tools:context=".MainActivity">
+    ​
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-11dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+            ​
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                ​
+                <!--okay part start-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/registerbackground"
+                    android:gravity="fill|center_vertical"
+                    android:orientation="vertical">
+                    ​
+
+
+                </LinearLayout>
+                <!--okay part end-->
+                ​
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="190dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="2dp"
+                    tools:context=".MainActivity">
+                    ​
+                    ​
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="fill|center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="370dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center"
+                            android:paddingLeft="-15dp"
+                            android:text=" PROFILE"
+                            android:textColor="#2D583B"
+                            android:textSize="30dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/profileSearchUsername"
+                            android:layout_width="200dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="35dp"
+                            android:background="#4666E0"
+                            android:textColor="#F7F4F4"
+                            android:textColorHint="#FDFCFC"
+                            android:ems="10"
+                            android:hint=" Search User Name"
+                            android:inputType="textPersonName"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/profileSearchButton"
+                            android:layout_width="76dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/roundablebutton"
+                            android:drawableLeft="@drawable/search"
+                            android:paddingLeft="10dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autofillHints="jjj"
+                            android:orientation="vertical"
+                            android:paddingLeft="20dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <EditText
+                                    android:id="@+id/createMricNoTextId"
+                                    android:layout_width="120dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:background="#1B203F"
+                                    android:ems="10"
+                                    android:enabled="false"
+                                    android:hint="  Account No :"
+                                    android:inputType="textPersonName"
+                                    android:paddingLeft="1dp"
+                                    android:paddingRight="5dp"
+                                    android:textColor="#F7F4F4"
+                                    android:textColorHint="#FDFCFC"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/profileAcNoId"
+                                    android:layout_width="150dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:background="#4666E0"
+                                    android:ems="10"
+                                    android:enabled="false"
+                                    android:inputType="textPersonName"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:textColor="#F7F4F4"
+                                    android:textColorHint="#FDFCFC"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <EditText
+                                    android:id="@+id/createAcAcNoTextId"
+                                    android:layout_width="120dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#1B203F"
+                                    android:ems="10"
+                                    android:enabled="false"
+                                    android:hint="  MRIC No :"
+                                    android:inputType="textPersonName"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:textColor="#F7F4F4"
+                                    android:textColorHint="#FDFCFC"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/profileAcMircNoId"
+                                    android:layout_width="150dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="15dp"
+                                    android:background="#4666E0"
+                                    android:enabled="false"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:textColor="#F7F4F4"
+                                    android:textColorHint="#FDFCFC"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <EditText
+                                    android:id="@+id/createAcPinNoTextId"
+                                    android:layout_width="120dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#1B203F"
+                                    android:ems="10"
+                                    android:enabled="false"
+                                    android:hint="  PIN No :"
+                                    android:inputType="textPersonName"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:textColor="#F7F4F4"
+                                    android:textColorHint="#FDFCFC"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/profileAcPinNoId"
+                                    android:layout_width="150dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="15dp"
+                                    android:background="#4666E0"
+                                    android:enabled="false"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:textColor="#F7F4F4"
+                                    android:textColorHint="#FDFCFC"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">​
+
+                                <EditText
+                                    android:layout_width="128dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="#1B203F"
+                                    android:enabled="false"
+                                    android:hint="Account Type:"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:textColor="#F7F4F4"
+                                    android:textColorHint="#FDFCFC"
+                                    android:textStyle="bold" />
+
+                                <Spinner
+                                    android:id="@+id/profileAcSpinnerId"
+                                    android:layout_width="148dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:background="#4666E0"
+                                    android:tooltipText="Select Account Type" />
+                                ​
+                            </LinearLayout>
+
+                            <!--gender start-->
+                            <LinearLayout
+                                android:layout_width="285dp"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+                                ​
+
+                                <EditText
+                                    android:layout_width="100dp"
+                                    android:layout_height="38dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="#1B203F"
+                                    android:enabled="false"
+                                    android:hint="Gender:"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:textColor="#F7F4F4"
+                                    android:textColorHint="#FDFCFC"
+                                    android:textStyle="bold" />
+                                ​
+
+                                <RadioGroup
+                                    android:id="@+id/radioGroupId"
+                                    android:layout_width="190dp"
+                                    android:layout_height="35dp"
+                                    android:background="#4666E0"
+                                    android:orientation="horizontal">
+
+                                    <RadioButton
+                                        android:id="@+id/maleId"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:layout_marginBottom="10dp"
+                                        android:text="Male"
+                                        android:textColor="#FDFCFC"
+                                        android:textCursorDrawable="@null"
+                                        android:textSize="15dp"
+                                        android:textStyle="bold" />
+
+                                    <RadioButton
+                                        android:id="@+id/femaleId"
+                                        android:layout_width="125dp"
+                                        android:layout_height="40dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:paddingLeft="5dp"
+                                        android:text="Female"
+                                        android:textColor="#FDFCFC"
+                                        android:textCursorDrawable="@null"
+                                        android:textSize="15dp"
+                                        android:textStyle="bold" />
+                                </RadioGroup>
+                            </LinearLayout>
+                            <!--gender end-->
+                            <EditText
+                                android:id="@+id/createAcAmountId"
+                                android:layout_width="285dp"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="15dp"
+                                android:background="#4666E0"
+                                android:hint=" Amount"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:textColor="#F7F4F4"
+                                android:textColorHint="#FDFCFC"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/createAcNameId"
+                                android:layout_width="285dp"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="15dp"
+                                android:background="#4666E0"
+                                android:hint=" Name"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:textColor="#F7F4F4"
+                                android:textColorHint="#FDFCFC"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/createAcPhonNoId"
+                                android:layout_width="285dp"
+                                android:layout_height="35dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="15dp"
+                                android:background="#4666E0"
+                                android:hint=" Mobile Number"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:textColor="#F7F4F4"
+                                android:textColorHint="#FDFCFC"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingTop="10dp">
+
+                                <Button
+                                    android:id="@+id/createAcCrButtonId"
+                                    android:layout_width="138dp"
+                                    android:layout_height="36dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/roundablebutton"
+                                    android:text="EDIT"
+                                    android:textAlignment="center"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:layout_width="138dp"
+                                    android:layout_height="36dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/roundablebutton"
+                                    android:text="UPDATE"
+                                    android:textAlignment="center"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        ​
+                    </LinearLayout>
+                    ​
+                </LinearLayout>
+                ​
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

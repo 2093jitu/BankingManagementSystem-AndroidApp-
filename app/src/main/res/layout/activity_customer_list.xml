@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerList"
+    android:background="@drawable/backfround">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewId"
+        android:divider="#836767"
+        android:scrollbarStyle="insideInset"
+        android:dividerHeight="2dp"
+        android:listSelector="#776F6F"
+        >
+    </ListView>
+
+</LinearLayout>
